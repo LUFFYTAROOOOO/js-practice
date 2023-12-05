@@ -26,5 +26,19 @@ let books =[
 
 // const userbook = books.filter( (bk) => bk.genre === 'sci')
 //   userbook = books.filter( (bk)=>{return bk.edition >2004})
-  userbook = books.filter( (bk)=>{return bk.edition >2004 && bk.genre === 'non-sci'})
-console.log(userbook);
+//   userbook = books.filter( (bk)=>{return bk.edition >2004 && bk.genre === 'non-sci'})
+// console.log(userbook);
+
+
+let student = [
+    {name:'ayush',email:'abc.com',phone:1245,dob:2005/2/21},
+    {name:'rahul',email:'xyz.com',phone:1247,dob:34-2-23},
+    {name:'shruti',email:'pqr.com',phone:7844,dob:31-23-21},
+    {name:'devendra',email:'lmn.com',phone:4567,dob:1-11-21},
+    {name:'sahil',email:'rst.com',phone:8493,dob:2-2-23},
+    {name:'paras',email:'uvw.com',phone:2237,dob:2-2-52},
+    {name:'raj',email:'efg.com',phone:4557,dob:12-2-43},
+];
+
+// let userinfo = student.filter((info) => {return info.phone === 1247})
+// console.log(userinfo);
