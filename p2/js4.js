@@ -11,11 +11,11 @@ const numbs = [1,2,3,4,5,6,7,8,9,0]
 const newarr = [1,2,3]
 
 const arr1=newarr.reduce( (acc,current) => {
-    console.log(`acc${acc} and curr${current}`);
-    return acc + current
+    // console.log(`acc${acc} and curr${current}`);
+    // return acc + current
 },0)
 
-console.log(arr1);
+// console.log(arr1);
 
 
 
